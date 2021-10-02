@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage of Virgil Griffith</title>
+
+    <link rel="stylesheet" href="./site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <style>
+        body,
+        #titletext {
+            font-family: 'Inconsolata', monospace !important;
+        }
+
+        .main {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-inner {
+            width: 100%;
+            max-width: 868px;
+            display: inline-block;
+        }
+
+        /* mobile layout */
+        @media (max-width: 1000px) {
+            #titletext {
+                font-size: 7vw;
+            }
+
+            .main-inner {
+                margin: 30px;
+                font-size: 16pt;
+            }
+
+            .right {
+                /* horizontally align*/
+                display: flex;
+                justify-content: center;
+                float: none;
+            }
+
+            .buttonWrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            .right {
+                float: right;
+                margin-left: 20px;
+            }
+
+            .buttonWrapper {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding-right: 20px;
+                margin-bottom: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header" class="site-header no-wrap" role="banner">
+        <span class="nav-toggle-label flex-item">
+        </span>
+
+        <div class="logo-wrapper flex-item">
+            <div class="site-title branding"><span class="site-title-text" id="titletext">Virgil Griffith</span></div>
+        </div>
+
+        <div class="header-special flex-item">
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="main-inner">
+            <p>
+                Virgil has plead guilty and is currently awaiting sentencing in January. Conditions are difficult, but
+                overall, he is doing okay.
+            <p>
+                He is currently limited to one 15 minute phone call per day, which greatly limits his ability to talk
+                to his friends and family. The best way to reach him is through <a
+                    href="https://www.corrlinks.com/">CorrLinks</a>, where he can send and receive emails. He must first
+                send you an invite before you can communicate. Please send an email to <a
+                    href="mailto:secretary@virgil.gr?subject=CorrLinks&body=Hey it's _____, please give Virgil this email so he can send me messages, and let him know __________">secretary@virgil.gr</a>
+                with the subject "CorrLinks" and we'll pass it along to him.
+            <p>
+                Needless to say, this is a very difficult time for him. He will need your support and friendship through
+                CorrLinks messages. Just as more importantly, he will need letters of support from those who know him,
+                to inform the judge of who he is and why he does not deserve a long sentence. We will have more
+                information
+                on the details of writing letters of support in December. Please let us know via an email to <a
+                    href="mailto:secretary@virgil.gr?subject=Letter of Support&body=Hi, I'm _____ and I know Virgil from _______. I would like to write a letter of support for him, please let me know when there is more information.">secretary@virgil.gr</a>
+                with the subject "Letter of Support" if you'd like to send a letter of support.
+            <p>
+                We believe he is in the Manhattan Detention Complex in New York, and will likely be held in quarantine
+                until
+                ~October 14th, so he may be more limited in his ability to communicate in that time.
+        </div>
+    </div>
+</body>
+
+</html>
