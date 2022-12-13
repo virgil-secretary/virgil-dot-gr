@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <script>
+        if (location.protocol !== 'https:') {
+           location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+    </script>
     <style>
         body,
         #titletext {
